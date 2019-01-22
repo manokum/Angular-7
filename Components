@@ -1,0 +1,8 @@
+Data Binding : It is a sort of communication between the typescript code and the template .
+Types of communication :
+a) Output Data 
+> String Interpolation  - {{data}}
+> Property Binding - [property]="data"
+b) React to (User)
+Event Binding - (event)="expression"
+c) Combination of Both : Two -Way -Binding [(ngModel)]="data"
