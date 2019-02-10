@@ -1,0 +1,78 @@
+# The things which are provided and worked on by Angular can also be done using the capapbilities of jquery/or even plain jvascript but
+why we use Angular is because :
+1. It provides a clean application code structure 
+2. Includes a lot of reuable code
+3. Makes the application more testable
+
+# The application arhitecture of Angular application comprises of :
+
+HTML + CSS + Javascript + Angular           ------->         Backend -end deveopnment
+  (Front End)                                                  (APIs and databases)
+  
+ # Setting of an Angular developnment environment
+ 1. Installation of the node  - ( we can download node from the official node website ; once node is downloaded we can check 
+ it's latest version by node --version)
+ 2. Once node is installed we will be using npm to install the third parties libraries . like Angular CLI (to create initial angular
+ application stucuture or some boilerplate code)
+ npm install -g @angular/cli ( g to install it across the system)
+ 
+ For installation in the mac machine 
+ sudo npm install -g @angular/cli
+ 
+ (in order to check the correct installation of the Angular CLI we do : ng --version)
+ 
+ # Once the dvelopnment environment is setup we can go ahead with the new Angular project creation with below command :
+ ng new hello-world
+ The above command will create the basic boilerplate code needed for the kickstart of the application and can be viewed in the 
+ browser by writing :
+ ng serve
+ 
+ At times we might run into version mistmaches of different packages installed in the application in order to avoid/rectify the
+ issues we might need to remove the ^ from the package.json file in the application and then run 
+ npm update 
+ The above would resolve the version mis-match issues with the application .
+ 
+ # As a concept of different programming languages for the application kickstart there is main.ts file in the application 
+ which forms the starting point of the application and this file in turns takes care of the application bootstrapping .
+ 
+ If we make any changes in the angular application all the package and bundle dependencies are automatically compiled and are corresponding
+ changes are reflected in the application .
+ This is know as HMR (Hot Module Replacement) where the modules are replaced with the corresponding changes .
+ 
+ # ESSENTIALS TOPICS FOR BUILDING ANGULAR APPlICATION :
+: Fundamentals of Typescript and object oriented programming
+: Angular Fundamentals
+: Displaying data and handling events
+: Components
+: Directives
+: Template-driven Forms
+: Reactive Forms
+: Consuming HTTP services
+: Routing and navigation
+: Authentication and Authorisation
+: Deployment
+: Building real-time, servless applications using Firebase
+
+# ADVANCED Topics :
+: Animations
+: Angular material
+: Redux
+: Unit Testing
+: Integration Testing
+
+# Fundamentals of typescript required for Building Angular application :
+: Type annotations
+: Arrow Functions
+: Interfaces
+: Classes
+: Constructors
+: Access modifiers
+: Properties
+: Modules
+Typescript tranpiles to javascript for the browser to understand .
+
+sudo npm install -g typescript
+tsc --version (tells about typescript version)
+ 
+ 
+  
