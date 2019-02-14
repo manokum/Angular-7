@@ -1,0 +1,29 @@
+In order to create the arhitecture for the authentication/authorisation we need a client server side interface .
+On the client side we need a login page on the server side we need an API end-point in order to authenticate the
+logged in user .
+
+If the signed in user credential are authenticated by the backend we are going to return the JWT (json web token )from the bakend 
+JWT token contains few valid info for the logged in user (like ther role , email)
+
+In order to maintain the JWT received by the server all client side applications should store them somewhere in the application
+Ideally it is done on the local storage so even if the user closes the browser the token should persisit in there
+
+By making use of the JWT on the client side we can perform the following roles :
+- Display current user's name
+- Show/hide parts of the page
+- Prevent access to certian routes in the application
+
+Parts of the JWT token -  A JWT token consist of the following parts 
+- HEADER (alg,type="jwt" )
+- PAYLOAD (sub, name,admin)
+- VERIFY SIGNATURE (to provide security to the JWT token)
+
+
+
+
+
+
+
+
+
+
