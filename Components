@@ -6,3 +6,16 @@ a) Output Data
 b) React to (User)
 Event Binding - (event)="expression"
 c) Combination of Both : Two -Way -Binding [(ngModel)]="data"
+
+
+Building resuable components :
+Input Properties
+Aliasing Input Properties
+Output Properties
+Passing Event Data
+Aliasing Output Properties
+Templates , TemplateUrls
+Styles , styleUrls , inline style using the <style></style>
+ViewEncapsulation (Emulated [it is selected as the default property], Native , None )
+ngContent
+ngContainer
