@@ -1,0 +1,5 @@
+{{name | lowercase}}
+{{name | uppercase}}
+{{name | titlecase}}
+{{person | json}} -  to print a json from the person object
+{{name | slice:3:5}} - used to remove characters from a string using the starting index and till what index it will take up the value
