@@ -19,3 +19,37 @@ Styles , styleUrls , inline style using the <style></style>
 ViewEncapsulation (Emulated [it is selected as the default property], Native , None )
 ngContent
 ngContainer
+
+Essential steps for a component:
+> Create a component - e.g
+ courses.component.ts
+ 
+ import {Component} from '@angular/core'
+ 
+ @Component({
+  selector: 'courses',
+  template : '<h2>Basic component</h2>' // we can also use templateURL 
+ })
+ export class courseComponent {
+ 
+ }
+ 
+> Register it in a module
+once the above component is created then we will register it with
+
+import { CoursesComponent } from './courses.component'
+@NgModule({
+  AppComponenet,
+  CoursesComponent
+})
+
+> Add an element in the HTML markup
+<Courses/>
+
+//Generating Angular componenets : ng g c course
+
+
+
+
+
+
